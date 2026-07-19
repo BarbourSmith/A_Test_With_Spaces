@@ -1,23 +1,25 @@
 {
   "atomType": "Molecule",
-  "name": "A_Test_With_Spaces",
   "x": 0,
   "y": 0,
   "uniqueID": "id-1",
-  "ioValues": [],
+  "name": "A_Test_With_Spaces",
   "topLevel": true,
   "allAtoms": [
     {
       "atomType": "Output",
-      "name": "Output",
       "x": 0.98,
       "y": 0.5,
       "uniqueID": "id-2",
-      "ioValues": []
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Rectangle",
-      "name": "Rectangle",
       "x": 0.453042328042328,
       "y": 0.47075208913649025,
       "uniqueID": "id-4",
@@ -35,7 +37,6 @@
   ],
   "allConnectors": [
     {
-      "ap1Name": "geometry",
       "ap2Name": "number or geometry",
       "ap1ID": "id-4",
       "ap2ID": "id-2"
@@ -43,6 +44,5 @@
   ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
-  "compiledBom": [],
   "filetypeVersion": 1
 }
