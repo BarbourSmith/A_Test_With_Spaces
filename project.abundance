@@ -7,37 +7,9 @@
   "topLevel": true,
   "allAtoms": [
     {
-      "atomType": "Output",
-      "x": 0.98,
-      "y": 0.5,
-      "uniqueID": "id-2",
-      "ioValues": [
-        {
-          "name": "number or geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
-      "atomType": "Rectangle",
-      "x": 0.453042328042328,
-      "y": 0.47075208913649025,
-      "uniqueID": "id-4",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 10
-        },
-        {
-          "name": "y length",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
       "atomType": "Extrude",
-      "x": 0.6633597883597884,
-      "y": 0.32869080779944293,
+      "x": 0.7,
+      "y": 0.3,
       "uniqueID": "id-11",
       "ioValues": [
         {
@@ -49,18 +21,90 @@
           "ioValue": 10
         }
       ]
+    },
+    {
+      "atomType": "Output",
+      "x": 1,
+      "y": 0.5,
+      "uniqueID": "id-2",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Import",
+      "x": 0,
+      "y": 0.5,
+      "uniqueID": "id-21",
+      "fileName": "preview_7.jpg",
+      "name": "Import",
+      "type": "JPG",
+      "repoOwner": "BarbourSmith",
+      "repoName": "A_Test_With_Spaces",
+      "SVGwidth": 10,
+      "referenceWidth": 350
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.2,
+      "y": 0.4,
+      "uniqueID": "id-23",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 45,
+          "currentEquation": "45"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.5,
+      "y": 0.5,
+      "uniqueID": "id-4",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 10
+        },
+        {
+          "name": "y length",
+          "ioValue": 10
+        }
+      ]
     }
   ],
   "allConnectors": [
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-4",
-      "ap2ID": "id-11"
-    },
-    {
       "ap2Name": "number or geometry",
       "ap1ID": "id-11",
       "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-21",
+      "ap2ID": "id-23"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-11"
     }
   ],
   "unitsKey": "MM",

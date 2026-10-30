@@ -2,7 +2,7 @@
 
 # A_Test_With_Spaces
 
-![](/project.svg)
+![](/project.png)
 
 
 
