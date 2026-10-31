@@ -2,4 +2,9 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Strat-style 6-saddle tremolo bridge, chrome (Fender Vintage-Style Standard Series)|1|$34.99|https://britishaudio.com/products/vintage-style-standard-series-strat%C2%AE-tremolo-assembly-06-present-chrome|
+|Sealed 6-in-line guitar tuner, chrome (Musiclily, sold as a set of 6)|6|$7.50|https://musiclily.com/products/musiclily-basic-6-in-line-sealed-guitar-tuners-tuning-pegs-keys-machine-heads-set-for-fender-strat-tele-style-guitar-m174-6|
+|Strat single-coil pickup, white cover (Seymour Duncan SSL-5)|3|$237.00|https://www.fullcompass.com/prod/185398-seymour-duncan-ssl-5-customstaggeredstratwhitecover-single-coil-guitar-pickup-custom-staggered-strat-white-cover|
+|Strat jack plate, chrome (StewMac)|1|$24.99|https://www.stewmac.com/parts-and-hardware/jack-plates/jack-plate-for-strat|
+|Strat control knob, white (Fender, sold as a set of 3)|2|$5.32|https://www.sweetwater.com/store/detail/StratKnobsWG--fender-stratocaster-replacement-knobs-white|
+|Total: |13|$309.80| |
